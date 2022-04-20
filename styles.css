@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  padding: 0;
+}
+li {
+  display: inline;
+  margin: 0;
+  padding-right: 16px;
+}
+
+table,
+th,
+td {
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
+
+/* .special_items {
+  background-color: chartreuse;
+} */
+
+/* tr[class="special_items"] {
+  background-color: chartreuse;
+} */
+
+/* table .custom {
+  background-color: crimson;
+} */
+
+/* 
+DevTools'uose lentelėje atsirado <tbody> po <table>. KODĖL?
+
+*/
+table > tbody > tr > .ona {
+  background-color: red;
+}
+
+.vienas1 {
+  border: 1px solid red;
+}
+.vienas1 > p {
+  color: blue;
+}
